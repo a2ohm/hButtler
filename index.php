@@ -5,6 +5,7 @@
         
         <title>Buttler</title>
 
+        <!-- Javascript -->
         <!-- Load jQuery -->
         <script src="scripts/jquery-2.1.3.js"></script>
         <!-- Load the autoUpdate script -->
@@ -13,9 +14,18 @@
         </script>
         <script src="scripts/autoUpdate.js"></script>
 
+        <!-- Javascript − plugins -->
+        <script src="scripts/date-time.js"></script>
+
+        <!-- CSS -->
+        <link href="css/screen.css" media="screen" rel="stylesheet" />
+
     </head>
 
     <body>
-        <h1>Buttler</h1>
+        <div id="dateAndTime">
+            <p id="time"></p>
+            <p id="date">lundi 19 janvier</p>
+        </div>
     </body>
 </html>
