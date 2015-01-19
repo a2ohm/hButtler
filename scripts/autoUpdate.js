@@ -1,6 +1,3 @@
-/* Get the current git has */
-var gitHash = '<?php echo trim(`git rev-parse HEAD`) ?>';
-
 /* Set the checkVersion function */
 (function checkVersion()
 {
