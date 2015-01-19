@@ -8,7 +8,7 @@ html, body {
     background-color: #000;
 
     /* Font */
-    color: #ccc;
+    color: #ddd;
     font-family: "Helvetica";
 }
 
@@ -17,4 +17,24 @@ div, p {
     /* Margins */
     margin: 0;
     padding: 0;
+}
+
+/* Date & time */
+div#dateAndTime {
+    /* Margins */
+    margin: 50px 100px;
+}
+
+div#dateAndTime p#time {
+    /* Font */
+    font-size: 5em;
+    /* font-weight: bold; */
+}
+
+div#dateAndTime p#date {
+    /* Margins */
+    margin: -20px 0 0 2em;
+
+    /* Font */
+    font-size: 1em;
 }
