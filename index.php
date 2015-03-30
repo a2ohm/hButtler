@@ -14,11 +14,10 @@
         </script>
         <script src="scripts/autoUpdate.js"></script>
 
-        <!-- Javascript − plugins -->
-        <script src="scripts/date-time.js"></script>
 
         <!-- CSS -->
         <link href="css/screen.css" media="screen" rel="stylesheet" />
+        <link href="css/weather-icons.css" media="screen" rel="stylesheet" />
 
     </head>
 
@@ -28,8 +27,15 @@
             <p id="date">lundi 19 janvier</p>
         </div>
 
+        <div id="weather">
+        </div>
+
         <footer>
             <p>La réponse est 42.</p>
         </footer>
+
+        <!-- Javascript − plugins -->
+        <script src="scripts/date-time.js"></script>
+        <script src="scripts/weather.js"></script>
     </body>
 </html>
