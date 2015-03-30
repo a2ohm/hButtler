@@ -24,8 +24,12 @@
 
     <body>
         <div id="dateAndTime">
-            <p id="time"></p>
+            <p id="time">21:42</p>
             <p id="date">lundi 19 janvier</p>
         </div>
+
+        <footer>
+            <p>La réponse est 42.</p>
+        </footer>
     </body>
 </html>

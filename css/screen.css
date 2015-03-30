@@ -1,5 +1,8 @@
 /* Main settings */
 html, body {
+    /* Size */
+    height: 100%;
+
     /* Margins */
     margin: 0;
     padding: 0;
@@ -21,8 +24,11 @@ div, p {
 
 /* Date & time */
 div#dateAndTime {
+    /* Position */
+    float: left;
+
     /* Margins */
-    margin: 50px 100px;
+    margin: 50px 100px 0;
 }
 
 div#dateAndTime p#time {
@@ -33,8 +39,36 @@ div#dateAndTime p#time {
 
 div#dateAndTime p#date {
     /* Margins */
-    margin: -20px 0 0 2em;
+    margin: -20px 0 0 1em;
 
     /* Font */
     font-size: 1em;
+}
+
+/* Footer */
+footer {
+    /* Position */
+    position: absolute;
+    bottom: 50px;
+
+    /* Size */
+    width: 100%;
+
+    /* Text */
+    text-align: center;
+    font-size: 1.6em;
+}
+
+footer>p {
+    /* Size */
+    width: 50%;
+
+    /* Position */
+    padding-top: 30px;
+
+    /* Margin */
+    margin: 0 auto;
+
+    /* Border */
+    border-top: groove 2px #ddd
 }
