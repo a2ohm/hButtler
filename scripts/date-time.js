@@ -1,5 +1,7 @@
 /* Update the clock */
 
+jQuery(document).ready(function($) {
+
 (function clock()
  {
     var today=new Date();
@@ -21,3 +23,5 @@
         clock();
     }, 1000);
 })();
+
+})
