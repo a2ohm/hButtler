@@ -25,10 +25,12 @@ div, p {
 /* Date & time */
 div#dateAndTime {
     /* Position */
-    float: left;
+    position: absolute;
+    top: 50px;
+    left: 100px;
 
     /* Margins */
-    margin: 50px 100px 0;
+    /*margin: 50px 100px 0;*/
 }
 
 div#dateAndTime p#time {
@@ -44,6 +46,18 @@ div#dateAndTime p#date {
     /* Font */
     font-size: 1em;
 }
+
+/* Weather */
+div#weather {
+    /* Position */
+    position: absolute;
+    top: 50px;
+    right: 100px;
+
+    /* Text */
+    font-size: 4em;
+}
+
 
 /* Footer */
 footer {
