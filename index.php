@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <!--
 Copyright 2015 a2ohm
 Release under the MIT license
@@ -41,6 +42,21 @@ THE SOFTWARE.
         </div>
 
         <div id="weather">
+            <p id="weather-now">
+                <span id="weather-icon"></span>
+                <span id="weather-temp"></span>
+            </p>
+        </div>
+
+        <div id="roles">
+            <dl>
+                <dt>Repas</dt>
+                    <dd>Domitille / Jean−Baptiste</dd>
+                <dt>MB</dt>
+                    <dd>Reda</dd>
+                <dt>MH</dt>
+                    <dd>Antoine</dd>
+            </dl>
         </div>
 
         <footer>

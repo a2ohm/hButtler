@@ -71,6 +71,46 @@ div#weather {
     font-size: 4em;
 }
 
+/* Rôles */
+div#roles {
+    /* Position */
+    position: absolute;
+    top: 180px;
+    left: 150px;
+}
+
+div#roles dl {
+    /* Margin */
+    margin: 0;
+}
+
+div#roles dt {
+    /* Position */
+    display: block;
+    float: left;
+    clear: left;
+
+    /* Size */
+    width: 80px;
+
+    /* Text */
+    text-align: right;
+    color: #333;
+}
+
+div#roles dd {
+    /* Position */
+    display: block;
+    float: left;
+
+    /* Size */
+    width: 250px;
+
+    /* Margin */
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
 
 /* Footer */
 footer {
