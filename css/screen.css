@@ -41,15 +41,11 @@ div#dateAndTime {
     position: absolute;
     top: 50px;
     left: 100px;
-
-    /* Margins */
-    /*margin: 50px 100px 0;*/
 }
 
 div#dateAndTime p#time {
     /* Font */
     font-size: 5em;
-    /* font-weight: bold; */
 }
 
 div#dateAndTime p#date {
@@ -57,7 +53,7 @@ div#dateAndTime p#date {
     margin: -20px 0 0 1em;
 
     /* Font */
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 /* Weather */
@@ -77,6 +73,9 @@ div#roles {
     position: absolute;
     top: 180px;
     left: 150px;
+
+    /* Font */
+    font-size: 1.2em;
 }
 
 div#roles dl {
@@ -95,7 +94,7 @@ div#roles dt {
 
     /* Text */
     text-align: right;
-    color: #333;
+    color: #555;
 }
 
 div#roles dd {
