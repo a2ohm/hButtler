@@ -59,6 +59,20 @@ THE SOFTWARE.
             </dl>
         </div>
 
+        <div id="twitterFeed">
+            <a  class="twitter-timeline"
+                data-dnt="true"
+                href="https://twitter.com/search?q=%40CorthoDeBelmar"
+                data-widget-id="642070089215418368"
+                width="400px"
+                data-chrome="nofooter noborders noheader noscrollbar transparent"
+                data-tweet-limit="3">
+                Tweets sur @CorthoDeBelmar</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+            </script>
+                                              
+        </div>
+
         <footer>
             <p>La réponse est 42.</p>
         </footer>
